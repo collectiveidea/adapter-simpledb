@@ -25,7 +25,7 @@ module Adapter
     end
 
     def encode(value)
-      value.is_a?(Hash) ? value : {NonHashValueKeyName => value}
+      value = {NonHashValueKeyName => value} unless value.is_a?(Hash)
       value.each {|key, v| v.unshift(ArrayFillName) if v.is_a?(Array) }
     end
 
