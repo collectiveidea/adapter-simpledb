@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Adapter::SimpleDB::VERSION
   s.authors     = ["Daniel Morrison"]
   s.email       = ["daniel@collectiveidea.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/collectiveidea/adapter-simpledb"
+  s.summary     = %q{Adapter for Amazon SimpleDB}
+  s.description = %q{Adapter for Amazon SimpleDB}
 
   s.rubyforge_project = "adapter-simpledb"
 
