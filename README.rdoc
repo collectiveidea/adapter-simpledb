@@ -1,4 +1,4 @@
-= adapter-smipledb
+= adapter-simpledb
 
 Amazon SimpleDB adapter for adapter gem.
 
